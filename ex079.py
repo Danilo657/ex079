@@ -8,6 +8,6 @@ while True:
     else:
         print('valor duplicado !!!')
     resp = str(input('Quer continuar ? Sim ou Não ?')).strip().upper()[0]
-    if resp == 'N10':
+    if resp == 'N':
         break
 print(f'Os valores ditos foram {sorted(numeros)}')
